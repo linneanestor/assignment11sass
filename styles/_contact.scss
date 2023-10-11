@@ -1,7 +1,7 @@
 .contactsection {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     
 }
 .label-and-input {
@@ -27,4 +27,7 @@ label {
 }
 input {
     border: none;
+}
+form {
+    margin-top: 50px;
 }
