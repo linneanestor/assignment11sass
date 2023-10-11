@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+}
+footer {
+    width: 100%;
+}
+.nav {
+    margin-top: 5%;
+    margin-left: 7%; 
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+.navsecond {
+    margin-top: 5%;
+    margin-left: 7%; 
+    margin-right: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+
+    &__pages {
+        color: #111;
+        background: white;
+        border: none; 
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.346px;
+        margin-top: 5px;
+        margin-left: 4x;
+        margin-right: 5px;
+    }
+}
+button:hover {
+    cursor: pointer;
+}

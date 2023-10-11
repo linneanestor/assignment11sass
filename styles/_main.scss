@@ -1,0 +1,91 @@
+main {
+    margin: 7%;
+}
+h3 {
+    color: #4A4FF2;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.423px;
+}
+h2 {
+    color: #111;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+}
+.firstmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.hellotext {
+    width: 60%;
+}
+.quote {
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+    margin-bottom: 50px;
+
+
+    &__line {
+        width: 30px;
+        height: 2px;
+        opacity: 0.5;
+        background: #111;
+    }
+}
+.secondmain {
+    display: flex;
+    justify-content: space-between;
+    margin: 7%;
+    
+    &__textinfo {
+        color: #111;
+        font-family: Mulish;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px; /* 135.714% */
+        width: 50%;
+    }  
+
+    &__parts1 {
+        color: #111;
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.6;
+    }
+
+    &__parts2 {
+        color: #111;
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.6;
+        margin-right: 100px;
+    }
+
+}
+
+.longline {
+    width: 90%;
+    margin: 7%;
+    height: 2px;
+    flex-shrink: 0;
+    background: #D8D8D8;
+}
